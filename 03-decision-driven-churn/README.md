@@ -1,47 +1,93 @@
 # 📊 Decision-Driven Customer Churn Analysis
 
 ## 📌 Project Overview
-This project analyzes telecom customer churn using machine learning to identify customers at risk of leaving and translate insights into actionable business decisions.
+This project analyzes customer churn in a telecom company using machine learning and converts predictive results into clear, actionable business decisions.  
+The focus is on interpretability, business impact, and decision support rather than only model accuracy.
+
+---
 
 ## 🎯 Objective
-- Predict customer churn
-- Identify churn drivers
-- Support customer retention strategies
+- Predict customer churn  
+- Identify key churn drivers  
+- Provide business-ready recommendations to reduce churn  
 
-## 🛠️ Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+---
 
 ## 📂 Dataset
-- Telco Customer Churn Dataset (IBM Sample / Kaggle)
+- Telco Customer Churn Dataset (IBM / Kaggle)
+- ~7,000 customer records
+- Target variable: Churn
+
+---
 
 ## ⚙️ Methodology
 1. Data Cleaning & Preprocessing  
 2. Feature Encoding  
 3. Train-Test Split  
 4. Feature Scaling  
-5. Logistic Regression Model  
+5. Logistic Regression (Balanced Classes)  
 6. Model Evaluation  
-7. Business Insights
+7. Business Insight Extraction  
+
+---
+
+## 🤖 Model
+- Algorithm: Logistic Regression  
+- Reason: High interpretability and strong baseline performance for business problems  
+
+---
 
 ## 📈 Model Performance
-- Train Accuracy: ~75%
-- Test Accuracy: ~72%
-- Balanced class handling
+- Train Accuracy: ~75%  
+- Test Accuracy: ~72%  
+- Balanced handling of churn and non-churn classes  
 
-## 🔍 Key Insights
-- Fiber optic customers have higher churn probability
-- High total charges increase churn risk
-- Streaming service users churn more
-- Senior citizens and customers with dependents are more loyal
+---
 
-## 💼 Business Recommendations
-- Improve pricing for fiber optic users
-- Offer loyalty discounts to high-value customers
-- Bundle streaming services
-- Focus retention on families and senior citizens
+## 🔑 Key Insights
+- Fiber-optic customers show higher churn probability  
+- Customers with high total charges are more likely to leave  
+- Streaming service users have increased churn risk  
+- Senior citizens and customers with dependents show higher loyalty  
+
+---
+
+## 💡 Business Recommendations
+- Improve pricing and service quality for fiber-optic users  
+- Introduce loyalty discounts for high-value customers  
+- Bundle streaming services at competitive prices  
+- Focus retention strategies on families and senior citizens  
+
+---
+
+## 🗂 Project Structure
+
+03-decision-driven-churn/
+│
+├── data/
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│
+├── notebooks/
+│   └── Project_3_Decision_Driven_Customer_Churn_Analysis.ipynb
+│
+├── README.md
+└── .gitignore
+
+---
+
+## 🛠 Tools & Libraries
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 👤 Author
+**Sandeep Reddy**
+
+---
 
 ## ✅ Status
 ✔ Completed  
