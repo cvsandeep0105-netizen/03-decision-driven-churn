@@ -20,15 +20,15 @@ The focus is on interpretability, business impact, and decision support rather t
 
 ---
 
-## ⚙️ Methodology
+## 🧪 Methodology
+
 1. Data Cleaning & Preprocessing  
-2. Feature Encoding  
+2. Feature Engineering  
 3. Train-Test Split  
 4. Feature Scaling  
-5. Logistic Regression (Balanced Classes)  
-6. Model Evaluation  
-7. Business Insight Extraction  
-
+5. Model Training (Logistic Regression – Balanced Classes)  
+6. Model Evaluation (Accuracy, Confusion Matrix, ROC–AUC)  
+7. Business Insight Extraction
 ---
 
 ## 🤖 Model
@@ -41,6 +41,17 @@ The focus is on interpretability, business impact, and decision support rather t
 - Train Accuracy: ~75%  
 - Test Accuracy: ~72%  
 - Balanced handling of churn and non-churn classes  
+
+### 📈 ROC–AUC Evaluation
+
+To evaluate the model’s ability to distinguish between churn and non-churn customers,  
+ROC–AUC score and ROC curve were used.
+
+- **ROC–AUC Score:** 0.83  
+- The ROC curve shows strong class separation performance.
+- This confirms the model is suitable for business decision-making beyond accuracy.
+
+> ROC–AUC is especially important for imbalanced datasets like customer churn.
 
 ---
 
