@@ -84,6 +84,34 @@ ROC–AUC score and ROC curve were used.
 ├── README.md
 └── .gitignore
 
+## ▶️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/03-decision-driven-churn.git
+
+ ##  Navigate to the project folder: 
+ cd 03-decision-driven-churn
+
+ ## Install required libraries:
+ pip install pandas numpy scikit-learn matplotlib seaborn
+
+ ## Open the notebook:
+ jupyter notebook notebooks/Project_3_Decision_Driven_Customer_Churn_Analysis.ipynb
+
+ 
+
+### 🔧 Change 2: Add a 2-line “Conclusion” (final polish)
+Add **just before Project Structure** or **before Status**:
+
+```md
+## 🏁 Conclusion
+
+This project demonstrates how machine learning can be translated into
+clear, data-driven business decisions for customer retention strategies.
+The focus on interpretability ensures trust and adoption in real-world environments.
+
+
 ---
 
 ## 🛠 Tools & Libraries
